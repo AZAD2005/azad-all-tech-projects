@@ -1,20 +1,32 @@
 import com.skb.basics.Student;
 
+import java.util.function.IntPredicate;
+import java.util.function.LongPredicate;
+import java.util.function.Predicate;
+
 public class Test {
     public static void main(String[] args) {
 
-        Student student = new Student("Azad", 1234);
-        String s = student.fetchDetails();
-        System.out.println(s);
+   IntPredicate even =  x ->{
+     return x % 2 == 0;
+    };
+        boolean test = even.test(12);
+        boolean test1 = even.test(13);
 
-        int i = student.finalSalary(20000);
-        System.out.println(i);
+        System.out.println(test);
+        System.out.println(test1);
 
-        String name = student.getName();
-        System.out.println(name);
 
-        String s1 = Student.m1("kamal..");
-        System.out.println(s1);
+
+       LongPredicate longPredicate =  y -> {
+            return y >= 10000d;
+        };
+        boolean longpre  = longPredicate.test(12000);
+        boolean longpre1  = longPredicate.test(1000);
+        System.out.println(longpre);
+        System.out.println(longpre1);
+
     }
+
 
 }
