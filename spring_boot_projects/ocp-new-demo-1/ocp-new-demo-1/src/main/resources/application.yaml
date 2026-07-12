@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: openshift-demo
+  profiles:
+    active: ${SPRING_PROFILES_ACTIVE:dev}
+
+server:
+  port: ${SERVER_PORT:9003}
+  forward-headers-strategy: framework
+
+
+
+springdoc:
+  api-docs:
+    enabled: true
+
+  swagger-ui:
+    enabled: ${SWAGGER_UI_ENABLED:true}
+    path: /swagger-ui.html
+    display-request-duration: true
+    try-it-out-enabled: true
+    operations-sorter: method
+    tags-sorter: alpha
+my-credentials:
+  username: ${MY_USERNAME:admin}
+  password: ${MY_PASSWORD:admin}
