@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.ska</groupId>
-    <artifactId>maven-corejava-demo</artifactId>
+    <artifactId>Core_Java_Demo</artifactId>
     <version>1.0-SNAPSHOT</version>
 
     <properties>
