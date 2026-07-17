@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e79b2b62-bbf6-44cb-bd01-59f64d111a72" name="Changes" comment="" />
+    <list default="true" id="e79b2b62-bbf6-44cb-bd01-59f64d111a72" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ska/controllers/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ska/services/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java_projects/Core_Java_Demo/src/main/java/com/ska/oneDcollections/ListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_projects/Core_Java_Demo/src/main/java/com/ska/oneDcollections/ListClass.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../python_projects/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_projects/first.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ska/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ska/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ska/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ska/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/Beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Beans.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -39,6 +54,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -54,12 +72,16 @@
     &quot;Gradle.spring-demo-1 [clean build].executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/practice-projects-azad/all-tech-projects/spring-projects/spring-demo-1/src/main/resources&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/my_practice_projects/all_tech_projects/spring_projects/spring-demo-1&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;D:/practice-projects-azad/all-tech-projects/spring-projects/spring-demo-1/src/main/java/com/ska/Main.java&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="RecentsManager">

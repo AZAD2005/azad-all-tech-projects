@@ -1,4 +1,4 @@
-print("Kamal sk")
+print("Kamal sk...!")
 print("Azad sk")
 
 x = 5
