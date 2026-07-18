@@ -5,19 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e79b2b62-bbf6-44cb-bd01-59f64d111a72" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ska/controllers/EmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ska/services/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../spring-demo/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../java_projects/Core_Java_Demo/src/main/java/com/ska/oneDcollections/ListClass.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java_projects/Core_Java_Demo/src/main/java/com/ska/oneDcollections/ListClass.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../python_projects/first.py" beforeDir="false" afterPath="$PROJECT_DIR$/../../python_projects/first.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ska/InitHelloWorld.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ska/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ska/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ska/EmployeeService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ska/HelloWorld.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ska/HelloWorld.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ska/controllers/EmployeeController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ska/services/EmployeeService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/Beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/Beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
