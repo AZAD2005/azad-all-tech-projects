@@ -15,7 +15,7 @@ public class ListClass {
         employeeList.add(new Employee("arafath", 4321, "1234596"));
 
         employeeList.stream()
-                .filter(employee -> employee.getEmpName().length() > 5)
+                .filter(employee -> employee.getEmpName().length() < 10)
                 .forEach(System.out::println);
 
     }
