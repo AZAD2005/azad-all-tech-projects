@@ -16,11 +16,11 @@ public class Demo {
         names.add("Brijesh");
         names.add("John");
 
-        Stream<String> emptyStream = Stream.empty();
+        Object[] array = names.stream()
+                .limit(3)
+                .toArray();
+        System.out.println(Arrays.toString(array));
 
-        System.out.println(emptyStream.count());
-
-//Output : 0
 
     }
 
