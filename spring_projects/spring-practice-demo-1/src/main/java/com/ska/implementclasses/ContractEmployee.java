@@ -1,11 +1,15 @@
 package com.ska.implementclasses;
 
+import com.ska.interfaces.IEmployee;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ContractEmployee {
+@Qualifier("contract")
+public class ContractEmployee implements IEmployee {
 
-    void employeeType(){
-        System.out.println("ContractEmployee...!");
+    public void employeeType() {
+        System.out.println("EmpType is :ContractEmployee...!");
     }
 }
