@@ -10,11 +10,11 @@ public class EmployeeService {
 
     @Autowired
     @Qualifier("permanent")
-    private IEmployee permanentemployee;
+     IEmployee permanentemployee;
 
     @Autowired
     @Qualifier("contract")
-    private IEmployee contractemployee;
+     IEmployee contractemployee;
 
     public void employeework(int choice) {
         if (choice == 1) {
