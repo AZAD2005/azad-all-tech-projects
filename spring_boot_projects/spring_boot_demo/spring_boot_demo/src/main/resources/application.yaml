@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring_boot_demo
+
+server:
+  port: 9009

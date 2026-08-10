@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: ocp-new-demo
-server:
-  port: 9006

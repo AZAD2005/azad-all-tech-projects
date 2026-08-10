@@ -1,5 +1,0 @@
-spring:
-  application:
-    name: open-shift-demo
-server:
-  port: 9005
