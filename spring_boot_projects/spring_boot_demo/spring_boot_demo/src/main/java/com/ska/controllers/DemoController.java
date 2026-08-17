@@ -20,7 +20,7 @@ public class DemoController {
 
     @GetMapping(path = "/sendQueryParam")
     public String details(@RequestParam String name, @RequestParam String city, @RequestParam String pincode) {
-        return String.format("Hi i am %s and i am from %s my pincode is %s", name, city, pincode);
+        return String.format("Hi %s and your from %s your pincode is %s", name, city, pincode);
     }
 
 }
