@@ -14,10 +14,8 @@ public class StreamDemo {
         namesList.add("Brijesh");
         namesList.add("John");
 
-        System.out.println(namesList);
-
-String str = "hello";
-        Class aClass = str.getClass();
-        System.out.println(aClass.toString());
+//String str = "hello";
+//        Class aClass = str.getClass();
+//        System.out.println(aClass.toString());
     }
 }

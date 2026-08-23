@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: spring-boot-practice-demo
+
+server:
+  port: 9008

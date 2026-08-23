@@ -1,4 +1,4 @@
-package com.ska.controllers;
+package com.ska.controller;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -18,7 +18,7 @@ public class DemoController {
         return String.format("Hii your firstName is : %s", fName);
     }
 
-    @GetMapping(path = "/sendQueryParam")
+    @GetMapping(path = "/fetchFullName")
     public String details(@RequestParam String name, @RequestParam String city, @RequestParam String pincode) {
         return String.format("Hi %s and your from %s your pincode is %s", name, city, pincode);
     }
