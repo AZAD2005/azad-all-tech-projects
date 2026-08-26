@@ -14,4 +14,9 @@ public class DemoController {
     }
 
 
+    @GetMapping(path = "/fetchFullName")
+    public String fullName() {
+        return "Hii my name is : Shaik Azad";
+
+    }
 }
