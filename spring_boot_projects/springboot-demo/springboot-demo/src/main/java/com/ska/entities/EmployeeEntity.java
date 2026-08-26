@@ -9,22 +9,23 @@ import java.util.Objects;
 @Table(name = "EMPLOYEE_ET")
 public class EmployeeEntity {
 
-    @Id
-    @Column(name = "EMP_NAME")
-    private String empName;
 
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "EMP_ID")
     private Integer empId;
 
+    @Column(name = "EMP_NAME")
+    private String empName;
     @Column(name = "EMP_DOJ")
     private Date empDoj;
 
     @Column(name = "EMP_SALARY")
     private Double empSalary;
 
+    @Convert(converter = YesNoConverter.class)
     @Column(name = "IS_PER_EMP")
     private Boolean isPerEmp;
-
 
     public String getEmpName() {
         return empName;

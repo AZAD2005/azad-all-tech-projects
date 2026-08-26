@@ -15,8 +15,10 @@ spring:
     hibernate:
       ddl-auto: update
 
-    repositories:
-      enabled: true
+  data:
+    jpa:
+      repositories:
+        enabled: true
 
 server:
   port: 9002
