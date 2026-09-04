@@ -1,13 +1,12 @@
-print("Kamal sk...!")
-print("Azad sk")
+from flask import Flask, render_template
 
-x = 5
-y = "Hello, World!"
+app = Flask(__name__)
 
-print(x)
-print(y)
 
-# Prints numbers from 0 to 4
-for i in range(5):print(i)
+@app.route("/")
+def home():
+    return render_template("index.html")
 
-if 4 > 2:print("Five is greater than two!")
+
+if __name__ == "__main__":
+    app.run(debug=True)
